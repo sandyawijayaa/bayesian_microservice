@@ -1,6 +1,6 @@
 # C++ Bayesian Microservice with Docker
 
-This is a high-performance C++ microservice that performs real-time Bayesian updating on streaming data. It's designed to simulate a high-throughput system for tracking supply chain metrics (e.g., carbon emissions) where data is noisy and uncertain. The service is built with the **Crow** C++ micro-framework and is fully containerized with **Docker** using a multi-stage build. 
+This is a C++ microservice that performs real-time Bayesian updating on streaming data. It's designed to simulate a high-throughput system for tracking supply chain metrics (e.g., carbon emissions) where data is noisy and uncertain. The service is built with the **Crow** C++ micro-framework and is fully containerized with **Docker** using a multi-stage build. 
 
 ## Tech Stack
 
