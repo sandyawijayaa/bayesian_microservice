@@ -1,6 +1,7 @@
 # C++ Bayesian Microservice with Docker
 
 This is a high-performance C++ microservice that performs real-time Bayesian updating on streaming data. It's designed to simulate a high-throughput system for tracking supply chain metrics (e.g., carbon emissions) where data is noisy and uncertain. The service is built with the **Crow** C++ micro-framework and is fully containerized with **Docker** using a multi-stage build. 
+
 ## Tech Stack
 
 - **C++17**
@@ -64,3 +65,9 @@ Open a new terminal and use `curl` to interact with your live service.
     ```
     
     *Returns: `{"variance":3.75,"mean_emissions":107.5,"factory_id":"A123"}`*
+
+## Key Files in this repo
+- 📄 bayesian_api.cpp (Main service code)
+- 📄 bayesian.cpp (Simple test script to get the update formula right)
+- 📄 crow_all.h (The Crow library file)
+- 📄 Dockerfile (The build instructions)
