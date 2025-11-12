@@ -3,10 +3,10 @@
 This is a high-performance C++ microservice that performs real-time Bayesian updating on streaming data. It's designed to simulate a high-throughput system for tracking supply chain metrics (e.g., carbon emissions) where data is noisy and uncertain. The service is built with the **Crow** C++ micro-framework and is fully containerized with **Docker** using a multi-stage build. 
 ## Tech Stack
 
-- **C++17:** For high-speed, memory-efficient data processing.
-- **Crow (C++ Framework):** To create a lightweight, multithreaded REST API.
-- **Bayesian Statistics:** Uses a Normal-Normal conjugate prior to instantly update beliefs without complex simulations.
-- **Docker:** Containerized for portability and reproducible builds.
+- **C++17**
+- **Crow (C++ Framework):** To create the REST API.
+- **Bayesian Statistics:** Uses a Normal-Normal conjugate prior.
+- **Docker**
 
 ## How to Run This Project
 
